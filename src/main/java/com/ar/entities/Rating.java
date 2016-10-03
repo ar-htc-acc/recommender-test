@@ -12,13 +12,16 @@ public class Rating {
 
 	@Id
 	@GeneratedValue
-	@Column(name = "id")
+	@Column(name="ID")
 	private Integer id;
 	
+	@Column(name="USER_ID")
 	private Integer userId;
 	
+	@Column(name="MOVIE_ID")
 	private Integer movieId;
 	
+	@Column(name="RATING")
 	private Integer rating;
 
 	public Integer getId() {
